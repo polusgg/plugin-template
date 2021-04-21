@@ -3,6 +3,10 @@
   "np-plugin": true,
   "version": "1.0.0",
   "description": "Template repository for creating plugins with NodePolus",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polusgg/plugin-template.git"
